@@ -121,7 +121,7 @@
         init : function () {
             this.ready = false;
             this.img = new Image();
-            this.img.src = 'http://www.prototypo.me/demo/canvas-game/bg.jpg';
+            this.img.src = './bg.jpg';
 
             this.img.onload = function () {
                 Background.ready = true;
